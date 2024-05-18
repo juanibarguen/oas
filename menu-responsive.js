@@ -13,7 +13,6 @@ window.addEventListener('scroll', function() {
   } else {
     // Scroll hacia arriba
     navbar.style.top = '0';
-    console.log("as");
   }
   
   lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
@@ -27,7 +26,7 @@ document.getElementById('menu-responsive').addEventListener('click', function() 
     var navLinks = document.getElementById('navLinks');
     var asd = document.getElementById('nav');
 
-
+    console.log("aaaa");
     navLinks.classList.add('expand');
 });
 
